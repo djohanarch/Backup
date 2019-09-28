@@ -1,0 +1,82 @@
+Xft.dpi:	96
+Xft.antialias:	false
+Xft.rgba:	rgb
+Xft.hinting:	true
+Xft.hintstyle:	hintslight
+
+URxvt.title:			false
+URxvt.perl-ext-common:		default,clipboard,keyboard-select
+URxvt.clipboard.autocopy:	true
+URxvt.keysym.C-C:		perl:clipboard:copy
+URxvt.keysym.C-V:		perl:clipboard:paste
+URxvt.keysym.C-A-V:		perl:clipboard:paste_escaped
+URxvt.url-select.underline:	false
+URxvt.keysym.M-u:		perl:url-select:select_next
+URxvt.keysym.M-Escape:		perl:keyboard-select:activate
+URxvt.keysym.M-s:		perl:keyboard-select:search
+URxvt.kuake.hotkey: F10
+
+
+URxvt*termName:			xterm-256color
+URxvt.scrollBar:		false
+URxvt*scrollTtyOutput:		false
+URxvt*scrollWithBuffer:		true
+URxvt*scrollTtyKeypress:	true
+URxvt.secondaryScreen:		1
+URxvt.secondaryScroll:		0
+URxvt.secondaryWheel:		1
+
+URxvt*cursorUnderline:	true 
+URxvt.cursorBlink:	on
+URxvt.pointerBlank:	false
+
+urxvt*highlightSelection:	true
+URxvt.lineSpace:		-1
+URxvt.letterSpace:		0
+URxvt.depth:			32
+URxvt.geometry:			480x280
+URxvt.fading:			0
+URxvt.saveLines:		8192
+URxvt.loginShell:		true
+URxvt.iso14755:			False
+URxvt.iso14755_52:		false
+
+URxvt*transparent:	true
+URxvt*dynamicColors:	on
+URxvt.allow_bold:	true
+!!urxvt*boldMode:	on
+!!urxvt*colorMode:	on
+!!urxvt*colorBDMode:	on
+!!urxvt*colorULMode:	on
+URxvt*inheritPixmap:	true
+!!URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+!!URxvt*shading:		99
+urxvt*blurRadius:	10
+
+URxvt*font:	xft:DejaVu Sans Mono for Powerline:pixelsize=13
+urxvt*boldFont:	xft:DejaVu Sans Mono for Powerline:pixelsize=13
+
+*background:			#110B1A
+*foreground:			#FDFDFD
+!!*fading: 40
+*fadeColor:			#002b36
+*cursorColor:			#e1ff00
+*pointerColorBackground:	#586e75
+*pointerColorForeground:	#93a1a1
+
+*color0:	#000000
+*color1:	#ff001e
+*color2:	#00ff15
+*color3:	#c9c8bf
+*color4:	#3db8ff
+*color5:	#ffff00
+*color6:	#008dff
+*color7:	#c5c8c6
+*color8:	#969896
+*color9:	#ff0000
+*color10:	#00ff15
+*color11:	#fff796
+*color12:	#008dff
+*color13:	#ffff00
+*color14:	#71bebe
+*color15:	#ffffff
